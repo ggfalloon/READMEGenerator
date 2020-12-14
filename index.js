@@ -51,12 +51,21 @@ const questions = () =>
             name: 'email',
             message: 'Enter the email address you want to display.',
         },
-    ]);
+        {
+            type: 'input',
+            name: 'name',
+            message: 'Enter your name the way you want to display it.',
+        },
+    ])
 
+        .then((data) => {
+            // function to write README file
 
-// function to write README file
-function writeToFile('README.md', data) {
-}
+            fs.writeToFile(README.md, data), (err) => {
+                err ? console.log(err) : console.log('Success!');
+
+            }
+        });
 
 // function to initialize program
 function init() {
