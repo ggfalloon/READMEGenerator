@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const utils = require('utils');
+const utils = require('/utils/.generateMarkdown.js');
 
 // array of questions for user
 const questions = () =>
@@ -36,9 +36,10 @@ const questions = () =>
             message: 'Write your testing instructions.',
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'license',
             message: 'Choose a license.',
+            choices: ['MIT', 'BSD', 'Apache', 'GNU']
         },
         {
             type: 'input',
@@ -51,10 +52,10 @@ const questions = () =>
             message: 'Enter the email address you want to display.',
         },
     ]);
-];
+
 
 // function to write README file
-function writeToFile(README.md, data) {
+function writeToFile('README.md', data) {
 }
 
 // function to initialize program
