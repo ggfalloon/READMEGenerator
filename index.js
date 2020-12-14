@@ -1,10 +1,60 @@
-// array of questions for user
-const questions = [
+const inquirer = require('inquirer');
+const fs = require('fs');
+const utils = require('utils');
 
+// array of questions for user
+const questions = () =>
+    inquirer.prompt([
+        {
+            type: 'input',
+            name: 'title',
+            message: 'Title of your project?',
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: 'Write your description.',
+        },
+        {
+            type: 'input',
+            name: 'installation',
+            message: 'Write your installation instructions.',
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Write your usage information.',
+        },
+        {
+            type: 'input',
+            name: 'contribution',
+            message: 'Write your contribution guidelines.',
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Write your testing instructions.',
+        },
+        {
+            type: 'input',
+            name: 'license',
+            message: 'Choose a license.',
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Enter your GitHub Username',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Enter the email address you want to display.',
+        },
+    ]);
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(README.md, data) {
 }
 
 // function to initialize program
