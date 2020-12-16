@@ -13,11 +13,12 @@ A command-line application that quickly and dynamically generates a professional
 * [Questions](#questions)
 
 ## Installation
-Visit - https://github.com/ggfalloon/READMEGenerator Clone the repository to your local machine. (Requires Node.js)
+Visit - https://github.com/ggfalloon/READMEGenerator 
+Clone the repository to your local machine. (Requires Node.js)
 
 ## Usage
 
-[Video](https://drive.google.com/file/d/1lxHTK3QyYvROsURZTCM2aeKHAwQ6XEGp/view?usp=sharing)
+[Watch Video Tutorial](https://drive.google.com/file/d/1lxHTK3QyYvROsURZTCM2aeKHAwQ6XEGp/view?usp=sharing)
 
 Invoke the application by typing “node index.js” in your command-line application. Follow the prompts with the exact wording you’d like on your your README.md file. For example, you’ll be asked to enter the title of your project. Be mindful of grammar and capitalization as this will transfer exactly as it is written. You’ll then have the option to choose a license with the up and down arrow keys. Your name, Github username and email address will be added to the “Questions” section of your README file. A “Table of Contents” section will allow the user to quickly navigate to different parts of your README.
 
