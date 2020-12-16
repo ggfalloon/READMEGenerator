@@ -2,35 +2,35 @@
 function generateMarkdown(data) {
   return `# ${data.title}
     
-    ## Description
-    ${data.description}
+## Description
+${data.description}
 
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-    ## Installation
-    ${data.installation}
+## Installation
+${data.installation}
 
-    ## Usage
-    ${data.usage}
+## Usage
+${data.usage}
 
-    ## License
-    ${data.license}
+## License
+${data.license}
 
-    ## Contributing
-    ${data.contribution}
+## Contributing
+${data.contribution}
 
-    ## Tests
-    ${data.tests}
+## Tests
+${data.tests}
 
-    ## Questions
-    &copy; ${data.name}, ${data.github}, ${data.email}
+## Questions
+&copy; ${data.name}, ${data.github}, ${data.email}
   `;
 }
 
